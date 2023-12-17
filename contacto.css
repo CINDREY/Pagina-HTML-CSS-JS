@@ -1,0 +1,194 @@
+
+
+
+/* BOTONES MENU  */
+.botonMenu {
+    background-color: #1a1919;
+    color: white;
+    padding: 3px;
+    width: 282px;
+    margin-right: 30px;
+
+    font-family: 'EB Garamond', serif;
+    animation: botonMenubounce 4s infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes botonMenubounce {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    15% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1) rotate(0);
+    }
+  }
+
+  
+  /* MENU DESPLEGABLE  */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* CAMBIO DE COLOR DEL SEARCH */
+.navbar.bg-body-tertiary form.d-flex button.btn.btn-outline-success:hover {
+    color: white !important;
+    background-color: #c70000;
+    border-color: #c70000;
+}
+
+/* CAMBIO DE COLOR DE LA LETRA DEL SEARCH */
+.btn.btn-outline-success {
+    color: rgb(0, 0, 0) !important; 
+    border-color: #000000;
+}
+
+/* ICONOS NADVAR */
+div i {
+  margin-right: 13px; /* Ajusta el valor según el espacio deseado */
+  font-size: 18px;
+}
+
+.iconos i:not(:last-child):after {
+  content: "|"; /* Agregar la barra vertical después de cada ícono excepto el último */
+  margin-left: 10px; /* Espacio entre la barra y el siguiente ícono */
+  color: #000; /* Color de la barra (cámbialo según tu diseño) */
+}
+
+
+/* FORMULARIO CONTACTO */
+
+
+
+.contacto{
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 15px 15px rgb(155, 155, 155);
+  width: 3000px;
+  display: inline-block;
+margin-right: 3px;
+font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+    background-image: url(fondoContacto.jpg); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.formularioContacto{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #000000;
+  }
+
+  .connosotros{
+    text-decoration: underline;
+    list-style-type: disc;
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;    
+    color: white;
+  }
+
+  .formularioContacto {
+    font-family: Arial, sans-serif;
+    max-width: 100%; 
+      margin: 0 auto; /
+    
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  
+  .input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 350px;
+    display: block; 
+    margin: 0 auto;
+  }
+ 
+  .botonEnviar{
+    background-color: #1a1919;
+    color: white;
+    padding: 8px;
+    width: 200px;
+    margin-right: 1px;
+
+    font-family: 'EB Garamond', serif;
+    animation: botonMenubounce 4s infinite;
+    cursor: pointer;
+    box-shadow: 0 3px 3px rgb(155, 155, 155);
+  
+  }
+
+ 
+  
+
+
