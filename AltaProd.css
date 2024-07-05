@@ -1,3 +1,5 @@
+
+
 /* BOTONES MENU  */
 .botonMenu {
     background-color: #1a1919;
@@ -90,7 +92,7 @@
     border-color: #000000;
 }
 
-/* ICONOS NADVAR (corazón, login y carrito)*/
+/* ICONOS NADVAR */
 div i {
   margin-right: 13px; /* Ajusta el valor según el espacio deseado */
   font-size: 18px;
@@ -103,121 +105,89 @@ div i {
 }
 
 
+/* FORMULARIO CONTACTO */
 
-/* DARLE FORMA AL CONTENEDOR DE PRODUCTOS */
-.producto{
-  border-radius: 5px;
+
+
+.contacto{
+  max-width: 600px;
+  border-radius: 10px;
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
-  box-shadow: 0 20px 20px rgb(155, 155, 155);
-  width: 300px;
+  box-shadow: 0 15px 15px rgb(155, 155, 155);
+  width: 3000px;
   display: inline-block;
 margin-right: 3px;
+font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+    background-image: url(fondoform.jpg); 
+  background-size: cover; 
+  background-position: center; 
 }
 
-.producto:hover {
-  box-shadow: 0 25px 25px rgba(40, 40, 40, 0.8);
-  transform: scale(1.05)
-}
-
-
-
-.producto h2{
-  font-family: 'EB Garamond', serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.producto img{
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: 200px; 
-  object-fit: cover;
-  border-radius: 2px;
-}
-
-.producto h3{
-  font-family: 'EB Garamond', serif;
-  font-size: 20px;
-  text-align: center;
-}
-
-.producto h4{
-  font-family: 'EB Garamond', serif;
-  font-size: 15px;
-  text-align: center;
-  font-style: italic;
-}
-
-.precio{
-  font-family: 'EB Garamond', serif;
-  font-size: 17px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.cuotas{
-  font-family: 'EB Garamond', serif;
-  color: rgb(253, 165, 51);
-  font-size: 17px;
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-}
-
-
-
-/* BOTON COMPRAR */
-
-.boton-comprar {
-  display: none; /* Ocultar el botón por defecto */
-  color: white;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  top: 98%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #1a1919;
-    color: white;
-    padding: 4px;
-    width: 300px;
-    margin-right: 1px;
+.formularioContacto{
     font-family: 'EB Garamond', serif;
     font-size: 15px;
-}
+    font-weight: bold;
+    text-align: center;
+    background-color: #000000;
+  }
 
-.producto {
-  position: relative;
-  margin-bottom: 20px;
-}
+  .connosotros{
+    text-decoration: underline;
+    list-style-type: disc;
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;    
+    color: white;
+  }
 
-.producto:hover .boton-comprar {
-  display: block; /* Mostrar el botón al pasar el ratón por encima del producto */
-}
-
-
-/* CORAZÓN DE CONTENEDOR */
-.icono-corazon {
-  display: inline-block;
-  position: relative;
+  .formularioContacto {
+    font-family: Arial, sans-serif;
+    max-width: 100%; 
+      margin: 0 auto; /
+    
+  }
   
-}
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  
+  .input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 350px;
+    display: block; 
+    margin: 0 auto;
+  }
+ 
+  .botonEnviar{
+    background-color: #1a1919;
+    color: white;
+    padding: 8px;
+    width: 200px;
+    margin-right: 1px;
 
-/* Corazón gris por defecto */
-.icono-corazon i {
-  font-size: 20px; /* Tamaño del ícono */
-  color: #888; /* Color gris */
-  transition: color 0.3s; /* Transición de color al pasar el mouse */
-  margin-top: 0px;
-  margin-left: 250px;
-}
+    font-family: 'EB Garamond', serif;
+    animation: botonMenubounce 4s infinite;
+    cursor: pointer;
+    box-shadow: 0 3px 3px rgb(155, 155, 155);
+  
+  }
 
-/* Cambia el corazón a negro al pasar el mouse */
-.icono-corazon:hover i {
-  color: black; /* Cambia el corazón a negro */
-}
+ 
+  
+
 
